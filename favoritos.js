@@ -5,7 +5,7 @@ function miLista(){
         document.getElementById("fBuscados").innerHTML = "";
         for(var i=0; i<matrizFavoritos.length; i++){        
                 registros.innerHTML += `
-                    <h4>APIs Favoritas</h4>        
+                    <h5>APIs Favoritas</h5>        
                     <div class="card float-right">
                         <div class="row">
                         <div class="col-sm-12">
